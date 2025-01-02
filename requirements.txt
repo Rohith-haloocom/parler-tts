@@ -1,0 +1,26 @@
+#flash-attn
+# Flask framework with all optional dependencies
+
+flask[all]
+
+# Asynchronous I/O support
+asyncio
+
+# Hugging Face Transformers library
+transformers
+
+flask_cors
+# PyTorch for deep learning
+torch
+
+flask[async]
+
+# Install Parler-TTS directly from the GitHub repository
+git+https://github.com/huggingface/parler-tts.git
+
+torch
+torchvision
+torchaudio
+packaging
+# flash-attn
+
